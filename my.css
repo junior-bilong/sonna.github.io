@@ -1,0 +1,154 @@
+body{
+    background:#585858 ;
+    color: #888;
+    font: 600 16px/22px "Lato" "Open sans", "Helvetica Neue", Helvetica, Arial, sans-serif ;
+    background:#585858  url("IMG_20200220_194624.jpg")20px 50% no repeat;
+}
+img{
+    border-radius: 5px;
+    display: block;
+    margin-bottom: 22px;
+    max-width: 100%;
+}
+
+.grid,
+.container{
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+}
+h1, h4, h5, p{
+    margin-bottom: 22px;
+}
+h1, h2, h4{
+    color: #9A2EFE;
+}
+h1{
+    font-size: 36px;
+    line-height: 44px;
+}
+h2{
+    font-size: 24px;
+   margin: 100px;
+   line-height: 44px;
+}
+h4{
+    margin: 50px;
+    font-size: 21px;
+}
+h5{
+    color: #642EFE;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+a:hover{
+    color: #642EFE;
+}
+a{
+    text-decoration: none;
+    color: #9A2EFE;
+}
+.btn{
+    border-radius: 5px;
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    letter-spacing: .5px;
+    margin: 0;
+    text-transform: uppercase;
+    border: 1px solid #dfe2e5;
+    padding: 10px 30px;
+}
+.btn:hover{
+    background: #fff;
+    color: #642EFE;
+}
+.hero{
+    color: black;
+    line-height: 44px;
+    padding: 22px 80px 66px 80px;
+    text-align: center;
+}
+.hero h2{
+    font-size: 36px;
+}
+.hero p{
+    font-size: 24px;
+    font-weight: 100;
+}
+.col-1-3{
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    display: inline-block;
+    vertical-align: middle;
+}
+.grid,
+.col-1-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.grid{
+    display: flex;
+}
+.logo{
+    border-top: 4px solid #9A2EFE;
+    float: left;
+    font-size: 48px;
+    font-weight: 100;
+    line-height: 44px;
+    padding: 40px 0 22px 0;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    
+}
+.tagline{
+    margin: 66px 0 22px 0;
+    text-align: right;
+}
+p{
+    border: 5px;
+    text-align: center;
+    word-spacing: .25em;
+    
+}
+p a{
+    border-bottom: 1px solid black;
+}
+
+}
+.primary-footer{
+    color: #9A2EFE;
+    font-size: 14px;
+    padding-bottom: 44px;
+    padding-top: 44px;
+}
+.primary-footer small{
+    float: left;
+    font-weight: 400;
+}
+.teaser a:hover h4{
+    color: black;
+}
+.nav{
+    text-align: right;
+}
+.primary-header a, .primary-footer a{
+    color: #fff;
+}
+.primary-header a:hover, .primary-footer a:hover{
+    color: #9A2EFE ;
+}
+.row{
+    background: black;
+    min-width: 960px;
+    padding: 66px 0 44px 0;
+}
+small{
+    color: white;
+}
+div{
+    background: #67b11c url("IMG_20200220_194624.jpg")20px 50% no repeat;
+}
